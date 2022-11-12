@@ -1,0 +1,1472 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../работа/projecttwo/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../работа/projecttwo/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../работа/projecttwo/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../работа/projecttwo/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../работа/projecttwo/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../работа/projecttwo/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../работа/projecttwo/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../работа/projecttwo/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../работа/projecttwo/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../работа/projecttwo/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../работа/projecttwo/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../работа/projecttwo/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../работа/projecttwo/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../работа/projecttwo/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../работа/projecttwo/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../работа/projecttwo/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../работа/projecttwo/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../работа/projecttwo/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../работа/projecttwo/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../работа/projecttwo/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../работа/projecttwo/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../работа/projecttwo/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../работа/projecttwo/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../работа/projecttwo/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../работа/projecttwo/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../работа/projecttwo/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../работа/projecttwo/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../работа/projecttwo/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../работа/projecttwo/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../работа/projecttwo/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../работа/projecttwo/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../работа/projecttwo/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../работа/projecttwo/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../работа/projecttwo/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../работа/projecttwo/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../работа/projecttwo/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../работа/projecttwo/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../работа/projecttwo/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../работа/projecttwo/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../работа/projecttwo/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../работа/projecttwo/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../работа/projecttwo/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 18, ../работа/projecttwo/src/sass/style.sass */
+.body {
+  font-family: "MontserratT";
+  font-weight: regular;
+}
+
+/* line 23, ../работа/projecttwo/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 27, ../работа/projecttwo/src/sass/style.sass */
+.conteiner {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 32, ../работа/projecttwo/src/sass/style.sass */
+.main-section {
+  position: relative;
+  height: 780px;
+  background-color: #ECECEC;
+  padding-top: 16px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+/* line 39, ../работа/projecttwo/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+/* line 45, ../работа/projecttwo/src/sass/style.sass */
+.main-section__logo {
+  width: 134px;
+}
+
+/* line 47, ../работа/projecttwo/src/sass/style.sass */
+.main-section__contetn-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 51, ../работа/projecttwo/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 85px;
+  right: -43px;
+  z-index: 0;
+}
+
+/* line 56, ../работа/projecttwo/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  top: 650px;
+  right: -120px;
+}
+
+/* line 62, ../работа/projecttwo/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 65, ../работа/projecttwo/src/sass/style.sass */
+.nav-menu__item {
+  margin-right: 64px;
+  font-size: 18px;
+  font-family: "MontserratT";
+}
+
+/* line 69, ../работа/projecttwo/src/sass/style.sass */
+.nav-menu__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 72, ../работа/projecttwo/src/sass/style.sass */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 76, ../работа/projecttwo/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 78, ../работа/projecttwo/src/sass/style.sass */
+.left-wrapper img {
+  width: 863px;
+  height: 700px;
+  position: relative;
+  z-index: 5;
+}
+
+/* line 83, ../работа/projecttwo/src/sass/style.sass */
+.left-wrapper__rectangle-violet {
+  position: absolute;
+  left: -70px;
+  top: 150px;
+  width: 591.8px;
+  height: 222.45px;
+  background: #724C9D;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-74.72deg);
+  z-index: 2;
+}
+
+/* line 95, ../работа/projecttwo/src/sass/style.sass */
+.left-wrapper__rectangle-lavender {
+  position: absolute;
+  width: 636.97px;
+  height: 228.68px;
+  left: -30px;
+  top: 160px;
+  background: #9356A0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-55.13deg);
+  z-index: 3;
+}
+
+/* line 106, ../работа/projecttwo/src/sass/style.sass */
+.left-wrapper__rectangle-lilac {
+  position: absolute;
+  width: 649.38px;
+  height: 228.66px;
+  left: 20px;
+  top: 200px;
+  background: #DCCAE9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-37.08deg);
+  z-index: 1;
+}
+
+/* line 118, ../работа/projecttwo/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 5;
+}
+
+/* line 124, ../работа/projecttwo/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 127, ../работа/projecttwo/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 129, ../работа/projecttwo/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: "MontserratT";
+}
+
+/* line 140, ../работа/projecttwo/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 143, ../работа/projecttwo/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #724C9D;
+  border-radius: 100px;
+  margin-right: 17px;
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* line 154, ../работа/projecttwo/src/sass/style.sass */
+.icons__item_item:last-child {
+  margin-right: 0p;
+}
+
+/* line 157, ../работа/projecttwo/src/sass/style.sass */
+.icons__item__i {
+  font-size: 18px;
+  color: black;
+}
+
+/* line 160, ../работа/projecttwo/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: "MontserratT";
+}
+
+/* line 167, ../работа/projecttwo/src/sass/style.sass */
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 170, ../работа/projecttwo/src/sass/style.sass */
+.buttons__main-btn {
+  height: 64px;
+  width: 200px;
+  background: #724C9D;
+  color: #F9F9F9;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+  border: 1px solid #724C9D;
+  margin-right: 32px;
+}
+
+/* line 180, ../работа/projecttwo/src/sass/style.sass */
+.buttons__icon-btn {
+  margin-right: 12px;
+}
+
+/* line 182, ../работа/projecttwo/src/sass/style.sass */
+.buttons__text {
+  padding-top: 6px;
+  font-size: 24px;
+  line-height: 19.5px;
+  text-align: left;
+}
+
+/* line 188, ../работа/projecttwo/src/sass/style.sass */
+.button__icon-btn {
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  font-family: "MontserratT";
+}
+
+/* line 194, ../работа/projecttwo/src/sass/style.sass */
+.elipse {
+  width: 190px;
+  height: 190px;
+  background: linear-gradient(132.76deg, #DCCAE9 45.74%, #724C9D 64.27%, #9356A0 74.23%);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 204, ../работа/projecttwo/src/sass/style.sass */
+.elipse_dig {
+  width: 230px;
+  height: 230px;
+  border-radius: 120px;
+  background: linear-gradient(132.76deg, #724C9D 15.53%, #724C9D 15.53%, #9356A0 26.86%, #DCCAE9 45.05%);
+}
+
+/* line 209, ../работа/projecttwo/src/sass/style.sass */
+.elipse__substracte {
+  width: 130px;
+  height: 130px;
+  background: #ECECEC;
+  border-radius: 100px;
+}
+
+/* line 214, ../работа/projecttwo/src/sass/style.sass */
+.elipse__substracte_big {
+  width: 140px;
+  height: 140px;
+}
+
+/* line 219, ../работа/projecttwo/src/sass/style.sass */
+.second-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+/* line 223, ../работа/projecttwo/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 158px;
+}
+
+/* line 228, ../работа/projecttwo/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 235, ../работа/projecttwo/src/sass/style.sass */
+.second-title {
+  font-size: 72px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  font-family: "MontserratT";
+}
+
+/* line 241, ../работа/projecttwo/src/sass/style.sass */
+.square {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+/* line 250, ../работа/projecttwo/src/sass/style.sass */
+.one-square {
+  position: relative;
+  width: 361.57px;
+  height: 360px;
+  background: #724C9D;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+/* line 260, ../работа/projecttwo/src/sass/style.sass */
+.one-square__text-one {
+  padding-right: 100px;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 190px;
+  right: 0px;
+  font-family: "MontserratT";
+}
+
+/* line 271, ../работа/projecttwo/src/sass/style.sass */
+.second-square {
+  width: 361.57px;
+  position: relative;
+  height: 360px;
+  background: #9356A0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+/* line 280, ../работа/projecttwo/src/sass/style.sass */
+.second-square__text-two {
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  font-family: "MontserratT";
+}
+
+/* line 290, ../работа/projecttwo/src/sass/style.sass */
+.third-square {
+  width: 361.57px;
+  position: relative;
+  height: 360px;
+  background: #DCCAE9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 298, ../работа/projecttwo/src/sass/style.sass */
+.third-square__text-third {
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 150px;
+  right: 0px;
+  font-family: "MontserratT";
+}
+
+/* line 308, ../работа/projecttwo/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 311, ../работа/projecttwo/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 314, ../работа/projecttwo/src/sass/style.sass */
+.icons-item__text {
+  font-size: 20px;
+  font-family: "MontserratT";
+}
+
+/* line 317, ../работа/projecttwo/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 323, ../работа/projecttwo/src/sass/style.sass */
+.third-section {
+  min-height: 640px;
+  background: #ECECEC;
+}
+
+/* line 326, ../работа/projecttwo/src/sass/style.sass */
+.third-section__conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 332, ../работа/projecttwo/src/sass/style.sass */
+.left_wrapper {
+  position: relative;
+  padding-right: 167px;
+}
+
+/* line 336, ../работа/projecttwo/src/sass/style.sass */
+.twoc {
+  position: absolute;
+  top: -150px;
+  left: 50px;
+}
+
+/* line 341, ../работа/projecttwo/src/sass/style.sass */
+.onec {
+  position: absolute;
+  top: -90px;
+  left: 10px;
+}
+
+/* line 348, ../работа/projecttwo/src/sass/style.sass */
+.h3 {
+  font-size: 72px;
+  font-weight: bold;
+  position: absolute;
+  top: -100px;
+  left: 150px;
+  font-family: "MontserratT";
+}
+
+/* line 356, ../работа/projecttwo/src/sass/style.sass */
+.h4 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: "MontserratT";
+}
+
+/* line 362, ../работа/projecttwo/src/sass/style.sass */
+.con {
+  width: 507px;
+}
+
+/* line 364, ../работа/projecttwo/src/sass/style.sass */
+.p3 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: left;
+  font-family: "MontserratT";
+}
+
+/* line 370, ../работа/projecttwo/src/sass/style.sass */
+.footer {
+  position: relative;
+}
+
+/* line 372, ../работа/projecttwo/src/sass/style.sass */
+.footer__conteiner {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 377, ../работа/projecttwo/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+}
+
+/* line 383, ../работа/projecttwo/src/sass/style.sass */
+.h5 {
+  font-size: 72px;
+  line-height: 105px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "MontserratT";
+}
+
+@media (max-width: 1199px) {
+  /* line 392, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner {
+    width: 960px;
+  }
+  /* line 395, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu__item {
+    margin-right: 53px;
+  }
+  /* line 397, ../работа/projecttwo/src/sass/style.sass */
+  .left-wrapper {
+    right: 50px;
+  }
+  /* line 399, ../работа/projecttwo/src/sass/style.sass */
+  .left-wrapper__img {
+    width: 822px;
+    height: 654px;
+  }
+  /* line 402, ../работа/projecttwo/src/sass/style.sass */
+  .left-wrapper__rectangle-violet {
+    width: 567.8px;
+    height: 212.45px;
+  }
+  /* line 405, ../работа/projecttwo/src/sass/style.sass */
+  .left-wrapper__rectangle-lavender {
+    width: 613.97px;
+    height: 223.68px;
+  }
+  /* line 408, ../работа/projecttwo/src/sass/style.sass */
+  .left-wrapper__rectangle-lilac {
+    width: 607.38px;
+    height: 214.66px;
+  }
+  /* line 411, ../работа/projecttwo/src/sass/style.sass */
+  .right-wrapper {
+    right: 20px;
+  }
+  /* line 413, ../работа/projecttwo/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 415, ../работа/projecttwo/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 48px;
+    right: -13px;
+    width: 173px;
+    height: 173px;
+    background: linear-gradient(132.76deg, #724C9D 15.53%, #DCCAE9 31.15%, #DCCAE9 65.14%, #9356A0 81.44%);
+  }
+  /* line 421, ../работа/projecttwo/src/sass/style.sass */
+  .main-section__first-elipse__substracte {
+    width: 111px;
+    height: 111px;
+  }
+  /* line 424, ../работа/projecttwo/src/sass/style.sass */
+  .one-square {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 427, ../работа/projecttwo/src/sass/style.sass */
+  .one-square__img-one {
+    height: 298px;
+  }
+  /* line 429, ../работа/projecttwo/src/sass/style.sass */
+  .one-square__text-one {
+    top: 168px;
+    right: -52px;
+  }
+  /* line 432, ../работа/projecttwo/src/sass/style.sass */
+  .second-square {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 435, ../работа/projecttwo/src/sass/style.sass */
+  .second-square__img-two {
+    height: 298px;
+  }
+  /* line 437, ../работа/projecttwo/src/sass/style.sass */
+  .second-square__text-two {
+    top: 132px;
+    right: -47px;
+  }
+  /* line 440, ../работа/projecttwo/src/sass/style.sass */
+  .third-square {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 443, ../работа/projecttwo/src/sass/style.sass */
+  .third-square__img-third {
+    height: 298px;
+  }
+  /* line 445, ../работа/projecttwo/src/sass/style.sass */
+  .third-square__text-third {
+    top: 117px;
+    right: -25px;
+  }
+  /* line 448, ../работа/projecttwo/src/sass/style.sass */
+  .h3 {
+    top: -109px;
+    left: 8px;
+  }
+  /* line 451, ../работа/projecttwo/src/sass/style.sass */
+  .icons-item {
+    margin-right: 35px;
+  }
+  /* line 453, ../работа/projecttwo/src/sass/style.sass */
+  .footer__img {
+    width: 400px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 459, ../работа/projecttwo/src/sass/style.sass */
+  .main-section {
+    min-height: 560px;
+    height: 550px;
+  }
+  /* line 462, ../работа/projecttwo/src/sass/style.sass */
+  .main-section__second-elipse {
+    width: 212px;
+    height: 212px;
+    top: 455px;
+    right: -137px;
+  }
+  /* line 467, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner {
+    width: 720px;
+  }
+  /* line 470, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .left-wrapper__img {
+    width: 573px;
+    height: 478px;
+  }
+  /* line 473, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .left-wrapper__rectangle-violet {
+    width: 471.79999999999995px;
+    height: 177.45px;
+    left: -79px;
+    top: 143px;
+  }
+  /* line 478, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .left-wrapper__rectangle-lavender {
+    width: 495.97px;
+    height: 184.68px;
+    left: -38px;
+    top: 154px;
+  }
+  /* line 483, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .left-wrapper__rectangle-lilac {
+    width: 483.38px;
+    height: 184.66px;
+    left: 11px;
+    top: 182px;
+  }
+  /* line 488, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .title {
+    font-size: 40px;
+  }
+  /* line 490, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .elipse {
+    top: 19px;
+    right: 75px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(123.51deg, #724C9D 15.89%, #DCCAE9 27.38%, #DCCAE9 32.08%, #DCCAE9 67.57%, #9356A0 84.55%);
+  }
+  /* line 496, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .elipse__substracte {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 500, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper {
+    width: 230px;
+  }
+  /* line 502, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper__icons-box {
+    padding: 0px;
+  }
+  /* line 504, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper .icons__item {
+    width: 34px;
+    height: 34px;
+    padding-left: 0px;
+    margin-right: 20px;
+  }
+  /* line 510, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper .icons__item:last-child {
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+  /* line 515, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper__text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  /* line 519, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper .buttons {
+    height: 45px;
+  }
+  /* line 521, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper .buttons__main-btn {
+    height: 49px;
+    width: 185px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-right: 16px;
+  }
+  /* line 527, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper .buttons__text {
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 19.5px;
+    text-align: left;
+  }
+  /* line 532, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner .right-wrapper .buttons .imgi {
+    width: 47px;
+  }
+  /* line 535, ../работа/projecttwo/src/sass/style.sass */
+  .second-section__icons-box {
+    margin-bottom: -37px;
+  }
+  /* line 537, ../работа/projecttwo/src/sass/style.sass */
+  .square {
+    margin-bottom: 22px;
+  }
+  /* line 539, ../работа/projecttwo/src/sass/style.sass */
+  .one-square {
+    width: 265px;
+    height: 265px;
+    margin-right: 30px;
+  }
+  /* line 543, ../работа/projecttwo/src/sass/style.sass */
+  .one-square__img-one {
+    height: 265px;
+    width: 180px;
+  }
+  /* line 546, ../работа/projecttwo/src/sass/style.sass */
+  .one-square__text-one {
+    top: 155px;
+    right: -75px;
+  }
+  /* line 549, ../работа/projecttwo/src/sass/style.sass */
+  .second-square {
+    width: 265px;
+    height: 265px;
+    margin-right: 30px;
+  }
+  /* line 553, ../работа/projecttwo/src/sass/style.sass */
+  .second-square__img-two {
+    height: 265px;
+  }
+  /* line 555, ../работа/projecttwo/src/sass/style.sass */
+  .second-square__text-two {
+    top: 104px;
+    right: -54px;
+  }
+  /* line 558, ../работа/projecttwo/src/sass/style.sass */
+  .third-square {
+    width: 265px;
+    height: 265px;
+  }
+  /* line 561, ../работа/projecttwo/src/sass/style.sass */
+  .third-square__img-third {
+    height: 265px;
+  }
+  /* line 563, ../работа/projecttwo/src/sass/style.sass */
+  .third-square__text-third {
+    top: 103px;
+    right: -42px;
+  }
+  /* line 566, ../работа/projecttwo/src/sass/style.sass */
+  .h3 {
+    top: -109px;
+    left: 8px;
+    font-size: 60px;
+  }
+  /* line 571, ../работа/projecttwo/src/sass/style.sass */
+  .icons-item {
+    margin-right: 20px;
+  }
+  /* line 573, ../работа/projecttwo/src/sass/style.sass */
+  .icons-item__img {
+    width: 50px;
+  }
+  /* line 575, ../работа/projecttwo/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 577, ../работа/projecttwo/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 38px;
+  }
+  /* line 581, ../работа/projecttwo/src/sass/style.sass */
+  .third-section {
+    min-height: 560px;
+  }
+  /* line 583, ../работа/projecttwo/src/sass/style.sass */
+  .third-section__right_wrapper {
+    width: 450px;
+  }
+  /* line 585, ../работа/projecttwo/src/sass/style.sass */
+  .onec {
+    width: 120px;
+  }
+  /* line 587, ../работа/projecttwo/src/sass/style.sass */
+  .twoc {
+    width: 190px;
+  }
+  /* line 589, ../работа/projecttwo/src/sass/style.sass */
+  .h3 {
+    font-size: 40px;
+    top: -104px;
+    left: 22px;
+  }
+  /* line 593, ../работа/projecttwo/src/sass/style.sass */
+  .h4 {
+    font-size: 60px;
+  }
+  /* line 595, ../работа/projecttwo/src/sass/style.sass */
+  .p3 {
+    font-size: 20px;
+  }
+  /* line 598, ../работа/projecttwo/src/sass/style.sass */
+  .footer__img {
+    width: 337px;
+    height: 235px;
+    bottom: 103px;
+  }
+  /* line 602, ../работа/projecttwo/src/sass/style.sass */
+  .h5 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 607, ../работа/projecttwo/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 609, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background: #724C9D;
+    z-index: 20px;
+    width: 50%;
+  }
+  /* line 619, ../работа/projecttwo/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    width: 540px;
+  }
+  /* line 627, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: #DCCAE9;
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  /* line 636, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 641, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 644, ../работа/projecttwo/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 30;
+  }
+  /* line 651, ../работа/projecttwo/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 658, ../работа/projecttwo/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 661, ../работа/projecttwo/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 663, ../работа/projecttwo/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 665, ../работа/projecttwo/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 667, ../работа/projecttwo/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 669, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
+  }
+  /* line 671, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu_active span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 678, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu_active span:last-child {
+    margin-bottom: 0px;
+  }
+  /* line 680, ../работа/projecttwo/src/sass/style.sass */
+  .humburger_active {
+    display: block;
+  }
+  /* line 682, ../работа/projecttwo/src/sass/style.sass */
+  .humburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 684, ../работа/projecttwo/src/sass/style.sass */
+  .humburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 686, ../работа/projecttwo/src/sass/style.sass */
+  .humburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 688, ../работа/projecttwo/src/sass/style.sass */
+  .humburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 690, ../работа/projecttwo/src/sass/style.sass */
+  .nav-menu_active {
+    display: block;
+  }
+  /* line 692, ../работа/projecttwo/src/sass/style.sass */
+  .main-section {
+    min-height: 512px;
+    height: 500px;
+  }
+  /* line 695, ../работа/projecttwo/src/sass/style.sass */
+  .main-section .elipse {
+    display: none;
+  }
+  /* line 698, ../работа/projecttwo/src/sass/style.sass */
+  .main-section .left-wrapper__img {
+    width: 525px;
+    height: 432px;
+  }
+  /* line 701, ../работа/projecttwo/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-violet {
+    width: 362px;
+    height: 152px;
+    left: 0px;
+    top: 94px;
+  }
+  /* line 706, ../работа/projecttwo/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-lavender {
+    width: 417px;
+    height: 166.68px;
+    left: 7px;
+    top: 110px;
+  }
+  /* line 711, ../работа/projecttwo/src/sass/style.sass */
+  .main-section .left-wrapper__rectangle-lilac {
+    width: 410.38px;
+    height: 153.66px;
+    left: 46px;
+    top: 149px;
+    transform: rotate(-35.08deg);
+  }
+  /* line 717, ../работа/projecttwo/src/sass/style.sass */
+  .main-section .right-wrapper {
+    top: 52px;
+    right: 57px;
+  }
+}
+
+@media (max-width: 557px) {
+  /* line 722, ../работа/projecttwo/src/sass/style.sass */
+  .conteiner {
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
